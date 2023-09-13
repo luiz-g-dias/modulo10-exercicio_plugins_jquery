@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Motors</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="Cadastro"></div>
+        <form class="form">
+            <h1>Cadastro</h1>
+            <input type="text" class="nome" required placeholder="Nome completo">
+            <input type="email" class="email" required placeholder="E-mail">
+            <input type="tel" class="tel" required placeholder="Telefone" id="campo-telefone">
+            <input type="tel" class="cpf" required placeholder="CPF" id="campo-cpf">
+            <input type="text" class="endere-o" required placeholder="Endereço">
+            <input type="tel" class="cep" required placeholder="CEP" id="campo-cep">
+            <button type="submit" class="confirmar">Comfirmar</button>
+        </form>
+        <script src="./code.jquery.com_jquery-3.7.1.min.js"></script>
+        <script src="./code.jquery.com_jquery-migrate-1.4.1.min.js"></script>
+        <script src="./jquery.mask.min.js"></script>
+        <script>
+            $(document).ready(function() {
+
+            $('#campo-telefone').mask('(00) 00000-0000')
+
+            $('#campo-cpf').mask('000.000.000-0')
+
+            $('#campo-cep').mask('00000-000')
+            
+            })
+        </script>
+</body>
+</html>

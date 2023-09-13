@@ -1,0 +1,104 @@
+body {
+    background: #393939;
+}
+
+.Cadastro {
+    background: #d9d9d9;
+    border-radius: 66px;
+    flex-shrink: 0;
+    width: 466px;
+    height: 335px;
+    position: absolute;
+    left: 188px;
+    top: 158px;
+}
+
+.confirmar {
+    background: #5eba4f;
+    border-radius: 34px;
+    flex-shrink: 0;
+    width: 196px;
+    height: 32px;
+    position: absolute;
+    left: 428px;
+    top: 433px;
+    border-color: #0000004b;
+}
+
+h1 {
+    color: #c27e7e;
+    flex-shrink: 0;
+    width: 189px;
+    height: 48px;
+    position: absolute;
+    left: 234px;
+    top: 185px;
+}
+
+.nome {
+    background: #c27e7e;
+    flex-shrink: 0;
+    width: 405px;
+    height: 32px;
+    position: absolute;
+    left: 219px;
+    top: 253px;
+}
+
+.email {
+    background: #c27e7e;
+    flex-shrink: 0;
+    width: 405px;
+    height: 32px;
+    position: absolute;
+    left: 219px;
+    top: 298px;
+}
+
+.tel {
+    background: #c27e7e;
+    flex-shrink: 0;
+    width: 196px;
+    height: 32px;
+    position: absolute;
+    left: 219px;
+    top: 343px;
+}
+
+.cpf {
+    background: #c27e7e;
+    flex-shrink: 0;
+    width: 196px;
+    height: 32px;
+    position: absolute;
+    left: 428px;
+    top: 343px;
+}
+
+.endere-o {
+    background: #c27e7e;
+    flex-shrink: 0;
+    width: 405px;
+    height: 32px;
+    position: absolute;
+    left: 219px;
+    top: 388px;
+}
+
+.cep {
+    background: #c27e7e;
+    flex-shrink: 0;
+    width: 196px;
+    height: 32px;
+    position: absolute;
+    left: 219px;
+    top: 433px;
+}
+
+input {
+    border-color: #00000083;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
